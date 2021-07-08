@@ -1,0 +1,337 @@
+<!DOCTYPE Html>
+<html>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style4.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <style>
+        .section-title3 {
+            color: brown;
+            position: relative;
+            font-size: 3em;
+            font-weight: 700;
+            margin-top: 5%;
+        }
+        
+        .section-title3:before {
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: 60px;
+            width: 235px;
+            height: 6px;
+            background: coral;
+            transform: translateX(-25%);
+        }
+        
+        .section-title3:after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 15px;
+            height: 15px;
+            border-radius: 70px;
+            background: coral;
+            transform: translateX(350%);
+        }
+        
+        .download {
+            margin-top: 25px;
+        }
+        
+        .download a {
+            position: relative;
+            display: center;
+            padding: 12px 16px;
+            margin: 0px 0;
+            height: 20px;
+            width: 180px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            border-radius: 50px;
+            overflow: hidden;
+            background: linear-gradient(90deg, #0162c8, #55e7fc);
+        }
+        
+        .download a:hover {
+            padding: 8px 12px;
+            transition: 0.5s ease;
+            margin-left: 20px;
+            margin-top: 40px;
+            font-size: 10px;
+        }
+        
+        section {
+            margin-bottom: 70px;
+        }
+        
+        section a:nth-child(2) {
+            letter-spacing: 2px;
+            display: center;
+            padding: 8px 19px;
+            border-radius: 50px;
+            font-weight: 400;
+            margin: 0px 0;
+            height: 20px;
+            width: 180px;
+            margin-left: 1000px;
+            margin-top: 100px;
+            overflow: hidden;
+            background: linear-gradient(90deg, #755bea, #ff72c0);
+        }
+        
+        section a:nth-child(2):hover {
+            padding: 8px 13px;
+            transition: 0.5s ease;
+            font-size: 15px;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+            <li><a href="#"><i class="fab fa-github"></i><span>Github</span></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="title1">
+            <h2 class="section-title3">Self-Help</h2>
+        </div>
+        <div class="swift3">
+            <div class="content1 swift3">
+                <div class="row">
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">Think and Grow Rich</h2>
+                            <p class="paragraphedit"> A Novel, By Napoleon Hill</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <script type="text/javascript">
+                                const buttons = document.querySelectorAll('a');
+                                buttons.forEach(btn => {
+                                    btn.addEventListener('click', function(e) {
+
+                                        let x = e.clientX - e.target.offsetLeft;
+                                        let y = e.clientY - e.target.offsetTop;
+
+                                        let ripples = document.createElement('span');
+                                        ripples.style.left = x + 'px';
+                                        ripples.style.top = y + 'px';
+                                        this.appendChild(ripples);
+
+                                        setTimeout(() => {
+                                            ripples.remove()
+                                        }, 1000);
+                                    })
+                                })
+                            </script>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328847328l/4963801.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">Top of the World </h2>
+                            <p class="paragraphedit">A Novel, by Peter May</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/61xPDmYV7SL.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">Learning How to Fly</h2>
+                            <p class="paragraphedit">A Novel, By A.P.J Abdul Kalam</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://m.media-amazon.com/images/I/41hWU-zMglL.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">How to be Fine</h2>
+                            <p class="paragraphedit">A Novel, By Jolenta Greenberg</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download="How to be fine">Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/51UKFWWvqHL._SY291_BO1,204,203,200_QL40_ML2_.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">The Power of Habit</h2>
+                            <p class="paragraphedit">A Novel, By Charles Duhigg</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://prodimage.images-bn.com/pimages/9781577314806_p0_v5_s600x595.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">The Power of Now</h2>
+                            </br>
+                            </br>
+                            <p class="paragraphedit">A Novel, By Eckhart Tolle</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/61tyuDSNazL.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">Declutter your mind</h2>
+                            <p class="paragraphedit">A Novel, By S.J Schott</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://prodimage.images-bn.com/pimages/9780062457714_p0_v10_s600x595.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">The subtle art of not giving a f*ck</h2>
+                            <p class="paragraphedit">A Novel, By Mark Manson</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- <h2>Column</h2> -->
+                        <div class="column col-left">
+                            <div class="img-card">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/51HP9ZBfRxL._SX327_BO1,204,203,200_.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column col-right">
+                            <h2 class="content-title1">Inner Spark</h2>
+                            <p class="paragraphedit">A Novel, By Kristin Vikjord</p>
+                            <div class="download"><a href="CE_045_Experiment_2.pdf" download>Download</a></div>
+                            <!-- <a href="seemore.html" class"btn">See More</a>                     -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="frontpage.php" class="button">Back</a>
+    </section>
+    <section class="adjust">
+        <footer>
+            <div class="container1">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>We help you to enhance your knowledge and provide you with the best facility. We provides you the best service as per your requirement and provide us with your valuable feedback. Be connected and share...</p>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/nisha.makwana.585559"><i class="fab fa-facebook-f "></i></a></li>
+                        <li><a href="https://www.instagram.com/nishu_mns/ "><i class="fab fa-instagram "></i></a></li>
+                        <li><a href="# "><i class="fab fa-linkedin "></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fas fa-phone"></i></span>
+                            <p><a href="tel:9512246617">+91 9512246617</a><br>
+                                <a href="tel:9624697213">+91 9624697213</a><br>
+                                <a href="tel:6353584644">+91 6353584644</a><br></p>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-envelope "></i></span>
+                            <p><a href="manavshah9890@gmail.com">manavshah9890@gmail.com</a><br>
+                                <a href="nisha.makwana2423@gmail.com">nisha.makwana2423@gmail.com</a><br>
+                                <a href="jashjash144@gmail.com">jashjash144@gmail.com</a><br>
+                            </p>
+                        </li>
+                        <!-- <li>
+                <span><i class="fas fa-envelope "></i></span>
+                <span>nisha.makwana2423@gmail.com</span>
+            </li>
+            <li>
+                <span><i class="fas fa-envelope"></i></span>
+                <span>jashjash144@gmail.com</span>
+            </li> -->
+                        <!-- <li>
+                <span><i class="fas fa-phone"></i></span>
+                <p><a href="tel:9624697213">9624697213</a></p>
+            </li>
+            <li>
+                <span><i class="fas fa-phone"></i></span>
+                <p><a href="tel:6353584644">6353584644</a></p>
+            </li> -->
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>copyright @ 2021 Book Barns. All Right Reserved.</p>
+        </div>
+    </section>
+</body>
+
+</html>

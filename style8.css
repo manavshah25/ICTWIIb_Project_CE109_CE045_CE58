@@ -1,0 +1,163 @@
+* {
+    padding: 2px;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZr4LCEHsWOCt6epTsvnlZUFGde0coTa82g&usqp=CAU");
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 100%;
+    background-size: cover;
+}
+
+header {
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+header h1 {
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 35px;
+    color: black;
+}
+
+.TABLE {
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 900px;
+    margin-left: 15%;
+    margin-top: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.content-table thead tr {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+section .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 30px;
+    font-weight: 500;
+    border: 1px solid black;
+    background: skyblue;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.heading {
+    margin-left: -30px;
+    margin-top: 27px;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.table {
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 900px;
+    margin-left: 15%;
+}
+
+.boxcards .content-table {
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+.content-table tr {
+    border-bottom: 1px solid black;
+    font-size: 22px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.content-table .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+    background: skyblue;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.queries {
+    margin-top: 80px;
+    text-align: left;
+}
+.queries .heading{
+    margin-left: 80px;
+}
+section .bookings {
+    margin-top: 100px;
+    text-align: left;
+}
+
+.bookings .table {
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 1000px;
+    margin-left: 16%;
+}
+
+.table .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 40px;
+    font-weight: 500;
+    border: 1px solid black;
+    background: skyblue;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.log{
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background: rgb(230, 214, 193);
+    padding: 0.4rem 0.8rem;
+    margin-top: 10%;
+    color: black;
+}
+marquee {
+    margin-top: 100px;
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZr4LCEHsWOCt6epTsvnlZUFGde0coTa82g&usqp=CAU");
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 20px;
+}

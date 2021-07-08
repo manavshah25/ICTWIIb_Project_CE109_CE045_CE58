@@ -1,0 +1,76 @@
+body {
+    background-image: url("tempimag.png");
+    position: relative;
+    /* position: fixed; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    background: rgb(120 154 196 / 50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease
+}
+
+header .brand {
+    color: #fff;
+    z-index: -1;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: -115px;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation a {
+    color: #fff;
+    z-index: -1;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-left: 30px;
+    text-decoration: wavy;
+    /* margin-right: 50px; */
+    /* text-align: right; */
+}
+
+header .navigation a:hover {
+    color: yellowgreen;
+    /* border-radius: 12px;
+    border: 2px groove white;
+    padding: 9px;
+    background-color: white; */
+}
+
+header.sticky {
+    background: #414ee7;
+    padding: 10px 250px;
+    transition: 0.6s ease-in-out;
+}
+
+body {
+    min-height: 110vh;
+}
+
+header .shif {
+    margin-right: 300px;
+}
